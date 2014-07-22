@@ -1,0 +1,7 @@
+inTransition: 
+  curve: 'easeOutBounce'
+  duration: 375
+outTransition: 
+  curve: 'easeIn'
+  duration: 225
+overlap: false

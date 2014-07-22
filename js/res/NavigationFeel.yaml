@@ -1,0 +1,6 @@
+inTransition: 
+  curve: 'easeInOut'
+  duration: 150
+outTransition: 
+  curve: 'easeInOut'
+  duration: 150

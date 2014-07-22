@@ -1,0 +1,236 @@
+body {
+    background-color: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/copy in UIWebView */
+}
+
+.song-card {
+    border-radius: 5px;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,0.5);
+}
+
+.song-card img{
+    border-radius: 5px;
+}
+
+.song-card-front {
+    background-color: #ccc;
+}
+
+.song-card-back {
+    color: #fff;
+    background-color:#333;
+    font-family: entypo;
+    font-size: 2em;
+}
+
+.item-title, .item-attribute {
+    /*margin:15px;*/
+    font-weight:300;
+    font-family: "Helvetica Neue";
+    /*margin:10px 30px;*/
+}
+
+.item-title {
+    line-height: 1.0em;
+    font-size:0.7em;
+    /*margin:10px 15px;*/
+}
+
+.item-attribute {
+    /*text-align:left;*/
+    /*display:inline-block;*/
+    /*float:left;*/
+    margin:50px 10px;
+    line-height: 1.0em;
+    font-size:0.6em;
+}
+
+.item-image {
+    margin-top: 5px;
+}
+
+.item-player {
+    width:200px;
+}
+
+.button {
+    /*background-color:#eee;*/
+    /*border:5px solid #bbb;*/
+    border-radius:999px;
+    font-size: 100%;
+    line-height:100%;
+    font-family: "entypo-social";
+    cursor:pointer;
+    position: absolute;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.discard:hover{
+    transition: .3s;
+    background:red;
+}
+.save:hover{
+    transition: .3s;
+    background:green;
+}
+
+.color1{
+    background: rgba(229, 55, 255, 0.9);
+    -webkit-box-shadow: inset 3px 3px 5px 2px rgba(244, 121, 255, 0.40), 0px 0px 5px rgba(224, 0, 255, 0.89);
+}
+
+.item-waveform {
+    width: 280px;
+    height: 40px;
+}
+
+.left-menu {
+    /*background-color: #ddd;*/
+    /*border: 1px solid #777;*/
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /*box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);*/
+}
+
+.left-menu h1 {
+    line-height: 5px;
+    font-weight: 100;
+    font-size: 20px;
+    /*background-color: #ddd;*/
+}
+
+.button.pause {
+    background-image: url('../assets/pause_square.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.button.play {
+    background-image: url('../assets/arrow_single_square.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.button.forward {
+    background-image: url('../assets/arrow_right_square.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.loading {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.loading span {
+    position: relative;
+    top: -4px;
+}
+
+.layout-background {
+    background-color: #333;
+}
+
+.background-image {
+    color:white;
+    font-size:70px;
+    -webkit-filter: blur(40px);
+    overflow: hidden;
+}
+
+.bio-feedback {
+    /*background-color:green;
+    opacity:0.5;*/
+}
+
+.menu-cover {
+    float: left;
+    width: 45px;
+    height: 45px;
+    background-image: url('../assets/hamburger.png');
+    background-size:25px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.navigation {
+    padding-top: 10px;
+}
+
+
+.slider-container {
+    /*background-color: white;*/
+}
+
+.gear-menu {
+    float: right;
+    width: 45px;
+    height: 45px;
+    background-image: url('../assets/hamburger.png');
+    background-size:25px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.left-menu-icon {
+/*    background-image: url('../assets/hamburger.png');
+    background-size:25px 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;*/
+    background-color: black;
+}
+
+.header-title {
+    margin-top: 10px;
+    margin-left: -45px;
+    display: inline-block;
+    clear: both;
+    color: #DDD;
+}
+
+.visualizerBar{
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid #333;
+}
+
+.vb0{
+    background-color: rgb(100,100,100);
+}
+.vb1{
+    background-color: rgb(112,112,112);
+}
+.vb2{
+    background-color: rgb(124,124,124);
+}
+.vb3{
+    background-color: rgb(136,136,136);
+}
+.vb4{
+    background-color: rgb(148,148,148);
+}
+.vb5{
+    background-color: rgb(160,160,160);
+}
+.vb6{
+    background-color: rgb(172,172,172);
+}
+.vb7{
+    background-color: rgb(184,184,184);
+}
+.vb8{
+    background-color: rgb(196,196,196);
+}
+.vb9{
+    background-color: rgb(208,208,208);
+
+}

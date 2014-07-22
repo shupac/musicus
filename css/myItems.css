@@ -1,0 +1,74 @@
+.savedScrollItems {
+    width: 40px;
+    height: 100px;
+}
+
+.savedImage {
+    width: 45px;
+    height: auto;
+}
+
+.particle{
+    background: rgba(50,210,255,.9);
+    -webkit-box-shadow: inset 3px 3px 5px 2px rgba(187, 211, 255, 0.80), 0px 0px 5px rgba(0,50,255,.9);
+    border-radius: 50%;
+    color : black;
+    font-size: 20px;
+    backface-visibility : visible !important;
+    -webkit-backface-visibility: visible !important;
+}
+
+.circle{
+    border : 2px solid rgba(255,255,255,0.7);
+    border-radius : 50%;
+    pointer-events : none;
+}
+
+.myitem{
+    color:white;
+    border:1px solid #333;
+    background-color:black;
+}
+
+.myitem-title {
+    font-size:1.1em;
+    font-weight:100;
+    margin-bottom: 0;
+    font-family: "HelveticaNeue-Light";
+}
+
+.myitem-subtitle {
+    font-size:.9em;
+    font-weight:100;
+    margin-top: 0;
+    font-family: "HelveticaNeue-Light";
+}
+
+.myitem-image {
+}
+
+.myitem-player {
+    width: 200px;
+    height: 300px;
+}
+
+.button.next {
+        background-image: url('../assets/arrow_right_square.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+}
+
+.color1 {
+	 background: rgba(229, 55, 255, 0.9);
+	 -webkit-box-shadow: inset 3px 3px 5px 2px rgba(244, 121, 255, 0.40), 0px 0px 5px rgba(224, 0, 255, 0.89);
+ }
+
+.topImage {
+	width: 70px;
+	height: 70px;
+}
+
+.containerImageSurface {
+    color:white;
+    -webkit-filter: blur(40px);
+}
